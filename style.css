@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  padding: 20px;
+}
+
+h2 {
+  color: #2b2b2b;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team-member {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #70a1ff;
+}
+
+.team-member h3 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+  color: #333;
+}
+
+.team-member p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+a.PortFolio_Link, a.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 14px;
+  background-color: #70a1ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a.PortFolio_Link:hover, a.github-link:hover {
+  background-color: #1e90ff;
+}

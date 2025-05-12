@@ -1,12 +1,11 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #e0eafc, #cfdef3);
   padding: 20px;
 }
 
 h2 {
-  color: #2b2b2b;
+  color: #a81d81;
   font-size: 32px;
   margin-bottom: 40px;
 }
@@ -21,57 +20,56 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 .team-member {
-  background: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  background: #b2bcd8;
+  border-radius: 10px;
   padding: 20px;
-  width: 250px;
+  width: 300px;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
-.team-member:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 20px rgba(0,0,0,0.2);
-}
+/* .team-member:hover {
+ 
+  box-shadow: 0 12px 20px rgba(104, 19, 19, 0.2);
+} */
 
 .team-member img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 500%;
   object-fit: cover;
-  margin-bottom: 10px;
-  border: 3px solid #70a1ff;
+  margin-bottom: 10%;
+  border: 3px solid #186481;
 }
 
 .team-member h3 {
   margin: 10px 0 5px;
-  font-size: 20px;
-  color: #333;
+  font-size: 25px;
+  font-weight: bold;
+  color: #09161a;
 }
 
 .team-member p {
   margin: 0;
-  color: #666;
+  color: #0b0252;
   font-size: 14px;
 }
 
-a.PortFolio_Link, a.github-link {
+a.PortFolio_Link {
   display: inline-block;
   margin-top: 10px;
   padding: 8px 14px;
-  background-color: #70a1ff;
-  color: #fff;
+  background-color: #360529;
+  color: #f5e0e0;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
-  transition: background-color 0.3s ease;
 }
 
-a.PortFolio_Link:hover, a.github-link:hover {
-  background-color: #1e90ff;
+a.PortFolio_Link:hover {
+  background-color: #6d1b0e;
 }

@@ -74,3 +74,43 @@ a.PortFolio_Link {
 a.PortFolio_Link:hover {
   background-color: #6d1b0e;
 }
+.custom-navbar {
+  background-color: #4b145b; /* Dark purple background */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link,
+.custom-navbar .dropdown-toggle,
+.custom-navbar .dropdown-item {
+  color: #f7f1f1 !important; /* Light text */
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .dropdown-toggle:hover,
+.custom-navbar .dropdown-item:hover {
+  color: #ffc107 !important; /* Bright yellow on hover */
+}
+
+.custom-navbar .dropdown-menu {
+  background-color: #5d2a72; /* Slightly lighter purple */
+}
+
+.custom-navbar .dropdown-item {
+  color: #f7f1f1;
+}
+
+.custom-navbar .dropdown-item:hover {
+  background-color: #7a3fa0; /* Even lighter purple on hover */
+  color: #fff;
+}
+
+.custom-navbar .btn-outline-success {
+  color: #fff;
+  border-color: #ffc107;
+}
+
+.custom-navbar .btn-outline-success:hover {
+  background-color: #ffc107;
+  color: #4b145b;
+}
+

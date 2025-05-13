@@ -21,10 +21,11 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+  margin-top: 5%;
 }
 
 .team-member {
-  background: #b2bcd8;
+  background: #8e94ad;
   border-radius: 10px;
   padding: 20px;
   width: 300px;
@@ -43,7 +44,7 @@ h2 {
   border-radius: 500%;
   object-fit: cover;
   margin-bottom: 10%;
-  border: 3px solid #186481;
+  border: 3px solid #14749a;
 }
 
 .team-member h3 {
@@ -72,4 +73,43 @@ a.PortFolio_Link {
 
 a.PortFolio_Link:hover {
   background-color: #6d1b0e;
+}
+.custom-navbar {
+  background-color: #4b145b; 
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link,
+.custom-navbar .dropdown-toggle,
+.custom-navbar .dropdown-item {
+  color: #f7f1f1 !important; 
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .dropdown-toggle:hover,
+.custom-navbar .dropdown-item:hover {
+  color: #ffc107 !important; 
+}
+
+.custom-navbar .dropdown-menu {
+  background-color: #5d2a72; 
+}
+
+.custom-navbar .dropdown-item {
+  color: #f7f1f1;
+}
+
+.custom-navbar .dropdown-item:hover {
+  background-color: #7a3fa0; 
+  color: #fff;
+}
+
+.custom-navbar .btn-outline-success {
+  color: #fff;
+  border-color: #ffc107;
+}
+
+.custom-navbar .btn-outline-success:hover {
+  background-color: #ffc107;
+  color: #4b145b;
 }

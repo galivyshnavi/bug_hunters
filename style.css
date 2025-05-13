@@ -25,7 +25,7 @@ h2 {
 }
 
 .team-member {
-  background: #b2bcd8;
+  background: #e9e8ad;
   border-radius: 10px;
   padding: 20px;
   width: 300px;
@@ -44,7 +44,7 @@ h2 {
   border-radius: 500%;
   object-fit: cover;
   margin-bottom: 10%;
-  border: 3px solid #186481;
+  border: 3px solid #14749a;
 }
 
 .team-member h3 {
@@ -75,24 +75,23 @@ a.PortFolio_Link:hover {
   background-color: #6d1b0e;
 }
 .custom-navbar {
-  background-color: #4b145b; /* Dark purple background */
+  background-color: #4b145b; 
 }
-
 .custom-navbar .navbar-brand,
 .custom-navbar .nav-link,
 .custom-navbar .dropdown-toggle,
 .custom-navbar .dropdown-item {
-  color: #f7f1f1 !important; /* Light text */
+  color: #f7f1f1 !important; 
 }
 
 .custom-navbar .nav-link:hover,
 .custom-navbar .dropdown-toggle:hover,
 .custom-navbar .dropdown-item:hover {
-  color: #ffc107 !important; /* Bright yellow on hover */
+  color: #ffc107 !important; 
 }
 
 .custom-navbar .dropdown-menu {
-  background-color: #5d2a72; /* Slightly lighter purple */
+  background-color: #5d2a72; 
 }
 
 .custom-navbar .dropdown-item {
@@ -100,7 +99,7 @@ a.PortFolio_Link:hover {
 }
 
 .custom-navbar .dropdown-item:hover {
-  background-color: #7a3fa0; /* Even lighter purple on hover */
+  background-color: #7a3fa0; 
   color: #fff;
 }
 
@@ -113,4 +112,3 @@ a.PortFolio_Link:hover {
   background-color: #ffc107;
   color: #4b145b;
 }
-

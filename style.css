@@ -63,6 +63,9 @@ h2 {
   color: #0b0252;
   font-size: 14px;
 }
+.team-member p {
+  margin-bottom: 10px; 
+}
 
 
 a.PortFolio_Link {

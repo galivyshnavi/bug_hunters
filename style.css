@@ -121,3 +121,27 @@ a.PortFolio_Link:hover {
   background-color: #ffc107;
   color: #4b145b;
 }
+ .badge {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.team-member p {
+  margin-bottom: 10px;
+}
+
+.team-member a.btn, 
+.team-member a.PortFolio_Link {
+  margin-top: 10px;
+  display: inline-block;
+}
+.footer {
+
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+  color: #999;
+  margin-top: 2rem;
+  width: 100%;
+  position: relative;
+}
